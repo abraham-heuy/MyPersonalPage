@@ -37,8 +37,9 @@ const Header = () => {
         secure, efficient, and built to last.
       </p>
 
-      {/* Cofounder Experience - NEW */}
-      <div className="mb-8 text-lg leading-relaxed">
+      {/* Cofounder Experience*/}
+      <div className="mb-8 text-lg leading-relaxed space-y-4">
+        {/* Riba Tech */}
         <p className="text-gray-700">
           Alongside his studies, Abraham is the <strong>cofounder</strong> of{" "}
           <a
@@ -49,13 +50,29 @@ const Header = () => {
           >
             Riba Tech
           </a>
-          , a small freelancing and consultation firm he built with a friend.
-          The venture focuses on turning requirements into remarkable software,
-          helping individuals and businesses access secure, scalable digital
-          solutions.
+          , a freelancing and consultation firm that helps businesses and
+          individuals turn requirements into remarkable software solutions. The
+          venture focuses on delivering secure, scalable digital solutions with
+          a team of passionate developers.
+        </p>
+
+        {/* 2wajibike */}
+        <p className="text-gray-700">
+          He is also the <strong>founder</strong> of{" "}
+          <a
+            href="https://2wajibike.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-900 font-medium hover:text-blue-600 transition-colors border-b border-gray-300 hover:border-blue-400"
+          >
+            2wajibike
+          </a>
+          , a citizen accountability platform currently under development. This
+          project directly applies his research on technology-enabled governance
+          for Kenya's 2027 elections, creating tools for citizens to rate
+          leaders, verify projects, and participate in transparent governance.
         </p>
       </div>
-
       {/* Specializations Section */}
       <div className="text-gray-700 mb-8 text-lg leading-relaxed">
         <p className="mb-4 text-gray-600">specializations:</p>
@@ -219,6 +236,26 @@ const Header = () => {
               just functional, but a delight to use.
             </p>
           </div>
+          {/* Project 5 - 2wajibike (New - placed first for prominence) */}
+          <div>
+            <a
+              href="https://2wajibike.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors border-b border-gray-200 hover:border-blue-400"
+            >
+              2wajibike - Citizen Accountability Platform →
+            </a>
+            <p className="text-gray-600 mt-1 text-base leading-relaxed">
+              A citizen-powered platform that brings transparency to Kenyan
+              leadership. Citizens can rate leaders based on real evidence,
+              track projects and promises, and participate in governance.
+              Aspirants get free profiles to share their vision and connect with
+              voters. Currently under development, this platform applies his
+              research on technology-enabled governance for Kenya's 2027
+              elections.
+            </p>
+          </div>
         </div>
 
         {/* More projects on GitHub */}
@@ -268,7 +305,8 @@ const Header = () => {
               — quantitative research analysis 2026 (pending publication)
             </p>
           </div>
-          {/* OOP Obsession - New Addition */}
+
+          {/* OOP Obsession */}
           <div>
             <p className="text-gray-900 font-medium">
               The Beauty of Object-Oriented Programming
@@ -371,7 +409,7 @@ const Header = () => {
             </p>
           </div>
 
-          {/* Leadership & Governance */}
+          {/* Leadership & Governance - Updated with 2wajibike link */}
           <div>
             <p className="text-gray-900 font-medium">
               Leadership & Governance (Kenya 2027)
@@ -380,7 +418,17 @@ const Header = () => {
               A forward-looking policy paper examining how technology,
               data-driven governance, and youth engagement can shape Kenya's
               2027 elections and beyond. Focuses on transparent systems, digital
-              public infrastructure, and accountable leadership.
+              public infrastructure, and accountable leadership. This research
+              directly informs the development of{" "}
+              <a
+                href="https://2wajibike.vercel.app/about"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-800 hover:text-blue-600 transition-colors underline decoration-gray-300 hover:decoration-blue-400 underline-offset-2"
+              >
+                2wajibike
+              </a>
+              , a citizen accountability platform currently under development.
             </p>
             <p className="text-gray-600 text-base leading-relaxed mt-2">
               This research explores how technology integration can
@@ -399,6 +447,17 @@ const Header = () => {
               empowering citizens with data to hold leaders accountable and
               helping leaders make better-informed decisions based on real-time
               community feedback rather than outdated assumptions.
+            </p>
+            <p className="text-gray-500 text-sm mt-1">
+              — research informing{" "}
+              <a
+                href="https://2wajibike.vercel.app/about"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-blue-600 transition-colors underline decoration-gray-300 hover:decoration-blue-400 underline-offset-2"
+              >
+                (2wajibike /about)
+              </a>
             </p>
           </div>
 
@@ -425,7 +484,7 @@ const Header = () => {
         an article is published, the link will be added here.
       </div>
 
-      {/* Skills & Interests - Responsive Two-Column Section */}
+      {/* Skills & Interests Section - unchanged */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
         {/* Skills Column */}
         <div>
@@ -433,7 +492,6 @@ const Header = () => {
             skills & abilities
           </h3>
 
-          {/* Technical Skills Subsection */}
           <p className="text-sm uppercase tracking-wide text-gray-500 mb-2">
             skills
           </p>
@@ -489,7 +547,6 @@ const Header = () => {
             </li>
           </ul>
 
-          {/* Abilities Subsection */}
           <p className="text-sm uppercase tracking-wide text-gray-500 mb-2">
             abilities
           </p>
@@ -525,7 +582,7 @@ const Header = () => {
           </ul>
         </div>
 
-        {/* Interests Column - Hobbies */}
+        {/* Interests Column */}
         <div>
           <h3 className="text-xl font-medium text-gray-800 mb-4">interests</h3>
           <ul className="space-y-2">
@@ -570,10 +627,9 @@ const Header = () => {
       {/* Divider */}
       <div className="border-t border-gray-100 pt-8 mt-4"></div>
 
-      {/* Vision Section - First Person (Intentional - Personal Manifesto) */}
+      {/* Vision Section */}
       <div className="mb-12">
         <h2 className="text-2xl font-normal text-gray-800 mb-6">vision</h2>
-
         <div className="text-gray-700 text-lg leading-relaxed space-y-4">
           <p>
             I believe that technology, when built with intention and heart, is
@@ -582,7 +638,6 @@ const Header = () => {
             cast. And like any superhero worth their cape, I've chosen to wield
             these powers for good.
           </p>
-
           <p>
             My vision is simple but unwavering: to build tools that lift people
             up. Whether it's helping farmers in Kenya access fair markets, or
@@ -590,7 +645,6 @@ const Header = () => {
             securing communications for those who need it most. I'm not just
             building software. I'm building bridges, ladders, and safety nets.
           </p>
-
           <p>
             I may not wear a cape (though I've thought about it), but every
             project I touch, every problem I solve, every line of secure code I
@@ -603,9 +657,7 @@ const Header = () => {
 
       {/* Footer Section */}
       <footer className="border-t border-gray-100 pt-10 mt-4">
-        {/* Contact - Simple 3 columns */}
         <h2 className="text-2xl font-normal text-gray-800 mb-6">contact</h2>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 text-gray-600">
           <a
             href="mailto:abrahamkisuaofficial2@example.com"
@@ -629,19 +681,15 @@ const Header = () => {
           </a>
         </div>
 
-        {/* Quotes */}
         <div className="text-center py-6 border-t border-gray-100 space-y-4">
           <p className="text-gray-500 italic text-lg">
             "The only way to do great work is to love what you do."
           </p>
           <p className="text-gray-400 text-sm">— Abraham Kioko</p>
-
-          {/* Jack Harlow Quote */}
           <p className="text-gray-500 italic text-lg pt-4">
             "I don't wish for my success, I speak it."
           </p>
           <p className="text-gray-400 text-sm">— Jack Harlow</p>
-
           <p className="text-gray-400 text-xs mt-6">
             © {new Date().getFullYear()} · Built with curiosity and purpose
           </p>

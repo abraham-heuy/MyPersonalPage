@@ -37,18 +37,18 @@ const Header = () => {
         secure, efficient, and built to last.
       </p>
 
-      {/* Cofounder Experience*/}
+      {/* Cofounder Experience - Updated with Avital */}
       <div className="mb-8 text-lg leading-relaxed space-y-4">
-        {/* Riba Tech */}
+        {/* Avital (formerly Riba Tech) */}
         <p className="text-gray-700">
           Alongside his studies, Abraham is the <strong>cofounder</strong> of{" "}
           <a
-            href="https://riba-tech-project-nine.vercel.app/"
+            href="https://avital.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-900 font-medium hover:text-blue-600 transition-colors border-b border-gray-300 hover:border-blue-400"
           >
-            Riba Tech
+            Avital
           </a>
           , a freelancing and consultation firm that helps businesses and
           individuals turn requirements into remarkable software solutions. The
@@ -73,7 +73,8 @@ const Header = () => {
           leaders, verify projects, and participate in transparent governance.
         </p>
       </div>
-      {/* Specializations Section */}
+
+      {/* Specializations Section - Updated with AWS AI/ML */}
       <div className="text-gray-700 mb-8 text-lg leading-relaxed">
         <p className="mb-4 text-gray-600">specializations:</p>
         <ul className="space-y-2 ml-2">
@@ -108,6 +109,17 @@ const Header = () => {
               className="text-gray-800 hover:text-blue-600 transition-colors underline decoration-gray-300 hover:decoration-blue-400 underline-offset-2"
             >
               distributed systems
+            </a>
+          </li>
+          <li className="flex items-center gap-3">
+            <span className="text-gray-400 text-xl">•</span>
+            <a
+              href="https://www.udacity.com/scholarships/aws-ai-ml-scholars"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-800 hover:text-blue-600 transition-colors underline decoration-gray-300 hover:decoration-blue-400 underline-offset-2"
+            >
+              AWS AI/ML Practitioner
             </a>
           </li>
           <li className="flex items-center gap-3">
@@ -160,83 +172,14 @@ const Header = () => {
         </p>
       </div>
 
-      {/* Projects Section */}
+      {/* Projects Section - Updated with new projects */}
       <div className="mb-10">
         <h2 className="text-2xl font-normal text-gray-800 mb-6">
           Some of his projects
         </h2>
 
         <div className="space-y-6">
-          {/* Project 1 - DESIC */}
-          <div>
-            <a
-              href="https://desic.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors border-b border-gray-200 hover:border-blue-400"
-            >
-              DESIC Automation & Management System →
-            </a>
-            <p className="text-gray-600 mt-1 text-base leading-relaxed">
-              A management and automation platform for the DeKUT Startup and
-              Incubation Center that helps manage and automate activities at the
-              center, reduces paperwork, and promotes seamless information
-              sharing between different users and their profiles.
-            </p>
-          </div>
-
-          {/* Project 2 - SkillMatch */}
-          <div>
-            <p className="text-lg font-medium text-gray-600">
-              SkillMatch Platform{" "}
-              <span className="text-gray-400 text-sm ml-2">
-                (pending deployment)
-              </span>
-            </p>
-            <p className="text-gray-600 mt-1 text-base leading-relaxed">
-              AI-powered job matching platform that goes beyond keyword
-              matching—analyzing candidate profiles, skill adjacency, and
-              company culture fit to suggest optimal placements. Uses
-              lightweight ML models for initial matching with planned
-              reinforcement learning integration.
-            </p>
-          </div>
-
-          {/* Project 3 - VEC Platform */}
-          <div>
-            <a
-              href="https://vecui.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors border-b border-gray-200 hover:border-blue-400"
-            >
-              VEC Platform →
-            </a>
-            <p className="text-gray-600 mt-1 text-base leading-relaxed">
-              A comprehensive management system for Victory Evangelical Church
-              (VEC), his home church. Handles member registrations, activity
-              scheduling, event management, user permissions, and communication
-              tools to help the church community stay connected and organized.
-            </p>
-          </div>
-
-          {/* Project 4 - UI/UX Mobile App */}
-          <div>
-            <p className="text-lg font-medium text-gray-600">
-              UI/UX Mobile Application{" "}
-              <span className="text-gray-400 text-sm ml-2">
-                (React Native · in progress)
-              </span>
-            </p>
-            <p className="text-gray-600 mt-1 text-base leading-relaxed">
-              Designing and building mobile applications with a strong focus on
-              Human-Computer Interaction (HCI) principles and usability
-              standards. Exploring intuitive interfaces, accessible design
-              patterns, and user-centered workflows to create apps that are not
-              just functional, but a delight to use.
-            </p>
-          </div>
-          {/* Project 5 - 2wajibike (New - placed first for prominence) */}
+          {/* Project 1 - 2wajibike */}
           <div>
             <a
               href="https://2wajibike.vercel.app/"
@@ -254,6 +197,94 @@ const Header = () => {
               voters. Currently under development, this platform applies his
               research on technology-enabled governance for Kenya's 2027
               elections.
+            </p>
+          </div>
+
+          {/* Project 2 - e-tala Marketplace */}
+          <div>
+            <a
+              href="https://e-tala-marketplace.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors border-b border-gray-200 hover:border-blue-400"
+            >
+              e-tala Marketplace →
+            </a>
+            <p className="text-gray-600 mt-1 text-base leading-relaxed">
+              A multi-feature e-commerce platform built with scalability in mind.
+              Features include product listings, user authentication, shopping cart,
+              order tracking, and payment integration. Designed to provide a seamless
+              shopping experience with modern web technologies.
+            </p>
+          </div>
+
+          {/* Project 3 - DESIC */}
+          <div>
+            <a
+              href="https://desic.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors border-b border-gray-200 hover:border-blue-400"
+            >
+              DESIC Automation & Management System →
+            </a>
+            <p className="text-gray-600 mt-1 text-base leading-relaxed">
+              A management and automation platform for the DeKUT Startup and
+              Incubation Center that helps manage and automate activities at the
+              center, reduces paperwork, and promotes seamless information
+              sharing between different users and their profiles.
+            </p>
+          </div>
+
+          {/* Project 4 - VEC Platform */}
+          <div>
+            <a
+              href="https://vecui.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors border-b border-gray-200 hover:border-blue-400"
+            >
+              VEC Platform →
+            </a>
+            <p className="text-gray-600 mt-1 text-base leading-relaxed">
+              A comprehensive management system for Victory Evangelical Church
+              (VEC), his home church. Handles member registrations, activity
+              scheduling, event management, user permissions, and communication
+              tools to help the church community stay connected and organized.
+            </p>
+          </div>
+
+          {/* Project 5 - SkillMatch */}
+          <div>
+            <p className="text-lg font-medium text-gray-600">
+              SkillMatch Platform{" "}
+              <span className="text-gray-400 text-sm ml-2">
+                (pending deployment)
+              </span>
+            </p>
+            <p className="text-gray-600 mt-1 text-base leading-relaxed">
+              AI-powered job matching platform that goes beyond keyword
+              matching—analyzing candidate profiles, skill adjacency, and
+              company culture fit to suggest optimal placements. Uses
+              lightweight ML models for initial matching with planned
+              reinforcement learning integration.
+            </p>
+          </div>
+
+          {/* Project 6 - UI/UX Mobile App */}
+          <div>
+            <p className="text-lg font-medium text-gray-600">
+              UI/UX Mobile Application{" "}
+              <span className="text-gray-400 text-sm ml-2">
+                (React Native · in progress)
+              </span>
+            </p>
+            <p className="text-gray-600 mt-1 text-base leading-relaxed">
+              Designing and building mobile applications with a strong focus on
+              Human-Computer Interaction (HCI) principles and usability
+              standards. Exploring intuitive interfaces, accessible design
+              patterns, and user-centered workflows to create apps that are not
+              just functional, but a delight to use.
             </p>
           </div>
         </div>
@@ -283,13 +314,69 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Research & Writing Section */}
+      {/* Research & Writing Section - Updated with new research topics */}
       <div className="mb-10">
         <h2 className="text-2xl font-normal text-gray-800 mb-6">
           research · articles · blogs
         </h2>
 
         <div className="space-y-5">
+          {/* AWS AI/ML Practitioner Challenge */}
+          <div>
+            <p className="text-gray-900 font-medium">
+              AWS AI/ML Practitioner Challenge
+            </p>
+            <p className="text-gray-600 text-base leading-relaxed">
+              Completed the AWS AI/ML Practitioner challenge, gaining hands-on
+              experience with AWS AI services including SageMaker, Rekognition,
+              Comprehend, and Lex. This certification validates proficiency in
+              building, training, and deploying machine learning models on AWS
+              infrastructure.
+            </p>
+            <p className="text-gray-500 text-sm mt-1">
+              — AWS AI/ML certification (completed)
+            </p>
+          </div>
+
+          {/* RAG Systems and Generative AI in E-commerce */}
+          <div>
+            <p className="text-gray-900 font-medium">
+              RAG Systems and Generative AI in E-commerce
+            </p>
+            <p className="text-gray-600 text-base leading-relaxed">
+              Researching Retrieval-Augmented Generation (RAG) architectures with a focus on
+              AWS AI/ML services and their integration into no-code/low-code workflows.
+              Exploring how AWS services like Amazon Bedrock, Knowledge Bases, and SageMaker
+              JumpStart enable rapid deployment of generative AI capabilities without deep
+              ML expertise. Investigating MLOps practices for RAG systems—including model
+              versioning, automated retraining pipelines, and monitoring using SageMaker
+              Pipelines and Model Registry. Practical implementations leverage AWS tools
+              alongside vector databases like OpenSearch Serverless, enabling e-commerce
+              platforms to implement semantic search, personalized recommendations, and
+              intelligent customer support with minimal custom code.
+            </p>
+            <p className="text-gray-500 text-sm mt-1">
+              — AWS-powered RAG systems · no-code/low-code ML implementations · MLOps
+            </p>
+          </div>
+
+          {/* Security Guidelines and Safety in Generative AI */}
+          <div>
+            <p className="text-gray-900 font-medium">
+              Security Guidelines and Safety in Generative AI
+            </p>
+            <p className="text-gray-600 text-base leading-relaxed">
+              Investigating security best practices for generative AI systems,
+              including prompt engineering safeguards, fine-tuning security,
+              and model safety. Topics include prompt injection prevention,
+              output filtering, bias mitigation, and secure deployment of LLMs
+              using tools like SageMaker, Hugging Face, and Guardrails AI.
+            </p>
+            <p className="text-gray-500 text-sm mt-1">
+              — ongoing research
+            </p>
+          </div>
+
           {/* Quantitative Portfolio Research */}
           <div>
             <p className="text-gray-900 font-medium">
@@ -316,10 +403,7 @@ const Header = () => {
               paradigm. It's a way of thinking. Exploring how encapsulation,
               inheritance, and polymorphism mirror the real world, and why
               designing with classes and objects feels like orchestrating a
-              symphony rather than just writing instructions. From the elegance
-              of message passing to the satisfaction of a well-crafted
-              inheritance hierarchy, this piece dives into the philosophy behind
-              the code.
+              symphony rather than just writing instructions.
             </p>
             <p className="text-gray-500 text-sm mt-1">
               — why OOP makes me fall in love with coding, over and over again{" "}
@@ -370,17 +454,13 @@ const Header = () => {
               between message queuing systems, remote procedure calls (RPC), and
               event-driven patterns. Examining how each approach impacts system
               reliability, latency, and fault tolerance in real-world
-              applications. Particular focus is given to use cases in
-              microservices and cloud-native environments where communication
-              choices directly affect scalability and resilience.
+              applications.
             </p>
             <p className="text-gray-600 text-base leading-relaxed mt-2">
               The study also investigates hybrid approaches that combine
               multiple paradigms to achieve optimal performance, including
               real-time systems that require both low-latency communication and
-              guaranteed message delivery. Case studies from large-scale
-              distributed platforms inform recommendations for architecture
-              decisions in different operational contexts.
+              guaranteed message delivery.
             </p>
           </div>
 
@@ -395,21 +475,11 @@ const Header = () => {
               including Paxos and Raft alongside optimistic vs. pessimistic
               locking strategies. The focus is on solving critical challenges
               such as race conditions, deadlocks, and maintaining state
-              consistency across geographically dispersed nodes, problems that
-              become increasingly complex as systems scale horizontally.
-            </p>
-            <p className="text-gray-600 text-base leading-relaxed mt-2">
-              Current work explores practical implementations of distributed
-              transactions, conflict resolution strategies in CRDTs
-              (Conflict-Free Replicated Data Types), and the trade-offs between
-              strong consistency and availability in partition-tolerant systems.
-              Real-world implications for database replication, distributed
-              caching, and multi-region deployments are analyzed to provide
-              actionable insights for system architects.
+              consistency across geographically dispersed nodes.
             </p>
           </div>
 
-          {/* Leadership & Governance - Updated with 2wajibike link */}
+          {/* Leadership & Governance */}
           <div>
             <p className="text-gray-900 font-medium">
               Leadership & Governance (Kenya 2027)
@@ -428,25 +498,14 @@ const Header = () => {
               >
                 2wajibike
               </a>
-              , a citizen accountability platform currently under development.
+              .
             </p>
             <p className="text-gray-600 text-base leading-relaxed mt-2">
               This research explores how technology integration can
               revolutionize campaigning with fewer resources, enabling
               candidates to reach voters through digital platforms, analyze
-              sentiment data to understand community needs, and mobilize
-              supporters efficiently without the massive budgets traditionally
-              required. Beyond elections, the paper proposes frameworks for
-              technology-enabled evaluation of leaders' performance while in
-              office: tracking campaign promises against actual deliverables,
-              providing citizens with accessible dashboards on infrastructure
-              projects, budget allocation, and legislative voting records. By
-              creating transparent feedback loops between constituents and their
-              representatives, technology can transform governance from a
-              periodic judgment at the ballot box into a continuous dialogue,
-              empowering citizens with data to hold leaders accountable and
-              helping leaders make better-informed decisions based on real-time
-              community feedback rather than outdated assumptions.
+              sentiment data, and mobilize supporters efficiently without
+              massive budgets.
             </p>
             <p className="text-gray-500 text-sm mt-1">
               — research informing{" "}
@@ -480,11 +539,10 @@ const Header = () => {
       <div className="mb-10 text-gray-500 text-sm italic border-l-2 border-gray-200 pl-4">
         — Actively researching and writing at the intersection of technology,
         finance, security, and governance. These explorations inform his
-        technical work and his perspective on building systems that matter. Once
-        an article is published, the link will be added here.
+        technical work and his perspective on building systems that matter.
       </div>
 
-      {/* Skills & Interests Section - unchanged */}
+      {/* Skills & Interests Section - Updated with new skills */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
         {/* Skills Column */}
         <div>
@@ -528,21 +586,48 @@ const Header = () => {
               <span className="text-gray-400 mt-1">•</span>
               <span>
                 <span className="font-medium">DevOps & Cloud:</span> Docker,
-                AWS, CI/CD, Linux, Render, Vercel
+                AWS (SageMaker, Bedrock, EC2, S3, OpenSearch), CI/CD, Linux, Render, Vercel
+              </span>
+            </li>
+            <li className="text-gray-700 flex items-start gap-2">
+              <span className="text-gray-400 mt-1">•</span>
+              <span>
+                <span className="font-medium">AI/ML & MLOps:</span> AWS SageMaker (Pipelines, Model Registry, JumpStart),
+                Amazon Bedrock, Hugging Face, LangChain, Vector Databases (OpenSearch, Pinecone, Weaviate),
+                MLflow, Model Monitoring & Explainability (SHAP, LIME)
+              </span>
+            </li>
+            <li className="text-gray-700 flex items-start gap-2">
+              <span className="text-gray-400 mt-1">•</span>
+              <span>
+                <span className="font-medium">AI Governance & Transparency:</span>
+                Responsible AI Practices, Model Explainability (SHAP, LIME),
+                Fine-tuning Strategies (Instruction Tuning, RLHF),
+                Prompt Engineering & Safety, Bias Detection & Mitigation,
+                Model Cards & Documentation, Audit Trails for ML Systems
+              </span>
+            </li>
+            <li className="text-gray-700 flex items-start gap-2">
+              <span className="text-gray-400 mt-1">•</span>
+              <span>
+                <span className="font-medium">Low-Code/No-Code AI:</span>
+                AWS SageMaker Canvas, Amazon Bedrock Playground,
+                Hugging Face Spaces, AutoML Solutions,
+                Drag-and-Drop ML Workflows, Pre-built AI Services
               </span>
             </li>
             <li className="text-gray-700 flex items-start gap-2">
               <span className="text-gray-400 mt-1">•</span>
               <span>
                 <span className="font-medium">Security:</span> Cryptography,
-                Secure Coding, Auditing
+                Secure Coding, Auditing, Prompt Engineering Safety, LLM Security
               </span>
             </li>
             <li className="text-gray-700 flex items-start gap-2">
               <span className="text-gray-400 mt-1">•</span>
               <span>
                 <span className="font-medium">Tools:</span> Git, Postman, Figma,
-                Canva, Lucid Charts
+                Canva, Lucid Charts, MLflow, Weights & Biases
               </span>
             </li>
           </ul>
@@ -582,7 +667,7 @@ const Header = () => {
           </ul>
         </div>
 
-        {/* Interests Column */}
+        {/* Interests Column - Unchanged */}
         <div>
           <h3 className="text-xl font-medium text-gray-800 mb-4">interests</h3>
           <ul className="space-y-2">
